@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+  }
+  header {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header ul {
+    float: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+  }
+
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+  }
+  .heroImg {
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+
+  .content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 20px;
+  }
+
+  button {
+    padding: 15px;
+    background-color:white;
+    color: black;
+    font-size: 18px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+  }
+  footer {
+    background: whitesmoke;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+    text-align: center;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  
+  .heading {
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+  /* Work Section */
+  .flexContainer {
+    display: flex;
+    padding: 20px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+    text-align: center;
+  }
+  
