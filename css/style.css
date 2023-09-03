@@ -64,17 +64,20 @@ body {
   
   .heading {
     text-align: center;
-    padding: 20px 5px;
+    padding: 20px 10px;
     font-size: 20px;
 }
   /* Work Section */
   .flexContainer {
     display: flex;
-    padding: 20px 30px;
+    padding: 0px 0px;
   }
   .flexContainer div {
     width: 33%;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
+  }
+  img {
+    border-radius: 18%;
   }
   
